@@ -1,0 +1,21 @@
+
+In order to save and re-use the style of an object,
+--> we need to find a way to store this information so it can be accessed easily. 
+we chose JSON.
+
+The next question is : what do we stylize ? 
+- is it single mesh 
+- or a complex object with several styles at once
+
+
+Two stylization methods will be created --> there will also be two types of style formats :
+
+
+
+When one layer is checked, three buttons appear :
+
+--> Stylize object : open a symbolizer to stylize all the meshes of the objects at once.
+--> Stylize parts : open a symbolizer to stylize the meshes of the objects independently (the objects must have the same number of meshes).
+--> Delete layers : delete the objects.
+
+
